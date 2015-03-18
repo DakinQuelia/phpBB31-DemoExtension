@@ -1,0 +1,19 @@
+services:      
+    votrepseudo.nomextension.controller:
+        class: votrepseudo\nomextension\controller\main_controller
+        arguments:
+            - @config
+            - @request
+            - @pagination
+            - @dbal.conn
+            - @auth
+            - @template
+            - @user
+            - @controller.helper
+            - %core.root_path%
+            - %core.php_ext%
+   
+    votrepseudo.nomextension.listener:
+        class: votrepseudo\nomextension\event\listener
+        tags:
+            - { name: event.listener }

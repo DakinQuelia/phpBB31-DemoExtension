@@ -1,0 +1,3 @@
+votrepseudo_nomextension_controller:
+    pattern: /mapage
+    defaults: { _controller: votrepseudo.nomextension.controller:main }

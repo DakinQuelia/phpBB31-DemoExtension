@@ -15,7 +15,7 @@ Ceci est une démo d'une extension simple pour phpBB 3.1.x
 ## Désinstallation
 1. Rendez-vous dans le panneau d'administration dans l'onglet « Personnaliser » puis « Gestion des extensions ».
 2. Cherchez « Nom Extension » sous « Extensions activées » et cliquez sur « Désactiver ».
-3. Pour une désinstallation complète, cliquez sur « Supprimer les données » puis supprimer l'extension « nomextension » du dossier « phpBB/ext/votrepseudo/ ».
+3. Pour une désinstallation complète, cliquez sur « Supprimer les données » puis supprimez l'extension « nomextension » du dossier « phpBB/ext/votrepseudo/ ».
 
 ## Licence
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
